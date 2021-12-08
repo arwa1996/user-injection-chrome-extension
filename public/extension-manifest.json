@@ -15,10 +15,5 @@
       "js": ["main.js"],
       "css": ["main.css"]
     }
-  ],
-  "web_accessible_resources": ["static/*"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+  ]
 }

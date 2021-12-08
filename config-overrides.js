@@ -70,8 +70,6 @@ module.exports = {
       config.entry = {
         // web extension
         main: "./src/index.tsx",
-        // background script that has to be referenced in the extension manifest
-        background: "./src/background/index.ts",
       };
 
       // Filenames of bundles must not include `[contenthash]`, so that they can be referenced in `extension-manifest.json`.
