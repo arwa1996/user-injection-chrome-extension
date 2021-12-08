@@ -1,8 +1,10 @@
 import { AiOutlineMail, AiOutlinePhone, AiOutlineUser } from "react-icons/ai";
 import { FiMapPin } from "react-icons/fi";
 import "../App.scss";
+import { User } from "../models/user";
 
-const UserProfile = ({ user }) => {
+const UserProfile = (props) => {
+  const user: User = props.user;
   return (
     <div className="container">
       <div>
